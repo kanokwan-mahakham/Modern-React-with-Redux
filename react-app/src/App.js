@@ -1,21 +1,13 @@
-
+import React from 'react';
+import Navbar from './features/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h1>Hello React</h1>
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <h1 style={{ padding: '4rem 0', margin: '0 auto', maxWidth: 1200 }}>
+        Hello React
+      </h1>
     </div>
   );
 }
